@@ -8,8 +8,20 @@
 
 @using (Html.BeginForm())
 {
-  @Html.LabelFor(model => model.Description)
-  @Html.TextBoxFor(model => model.Description)
+  @Html.LabelFor(model => model.Name)
+  @Html.TextBoxFor(model => model.Name)
+
+  @Html.LabelFor(model => model.Phone)
+  @Html.TextBoxFor(model => model.Phone)
+
+  @Html.LabelFor(model => model.Address)
+  @Html.TextBoxFor(model => model.Address)
+
+  @Html.LabelFor(model => model.PreferredStyle)
+  @Html.TextBoxFor(model => model.PreferredStyle)
+
+  @Html.LabelFor(model => model.Treatments)
+  @Html.TextBoxFor(model => model.Treatments)
 
   @Html.LabelFor(model => model.Stylists)
   @Html.DropDownList("StylistsId")
