@@ -77,4 +77,6 @@ _{An application to keep track of the salons stylist and their clients, as a pro
 
 _{Questions or Concerns please email me at marisaedgar1212@gmail.com}_
 
+License under [MIT License]_(LICENSE)_
+
 Copyright (c) _2022_ _Marisa Edgar_
