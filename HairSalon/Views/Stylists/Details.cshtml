@@ -4,7 +4,9 @@
 
 @model HairSalon.Models.Stylist
 
-<h2>Stylist Profile</h2>
+<div class="jumbotron">
+  <h1>Stylist Details</h1>
+</div>
 <hr />
 <h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<h3>
 <p>@Html.ActionLink("Edit Stylist", "Edit", new { id = Model.StylistId })</p>

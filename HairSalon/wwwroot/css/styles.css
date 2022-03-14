@@ -1,0 +1,14 @@
+.page {
+  background-color: beige;
+}
+img {
+  float: right;
+  padding: 2px;
+  width: 90px;
+  border: solid;
+  position: relative;
+  top: -100px;
+}
+.jumbotron {
+  background-color: blanchedalmond;
+}
